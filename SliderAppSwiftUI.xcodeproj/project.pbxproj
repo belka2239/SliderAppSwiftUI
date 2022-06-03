@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D50A2BD8284A57A0004AAEF6 /* SliderAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BD7284A57A0004AAEF6 /* SliderAppSwiftUIApp.swift */; };
 		D50A2BDA284A57A0004AAEF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BD9284A57A0004AAEF6 /* ContentView.swift */; };
 		D50A2BDC284A57A2004AAEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50A2BDB284A57A2004AAEF6 /* Assets.xcassets */; };
 		D50A2BDF284A57A2004AAEF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50A2BDE284A57A2004AAEF6 /* Preview Assets.xcassets */; };
+		D50A2BEA284A78A1004AAEF6 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BE9284A78A1004AAEF6 /* CustomSlider.swift */; };
+		D50A2BED284A7AC9004AAEF6 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BEC284A7AC9004AAEF6 /* SliderView.swift */; };
+		D50A2BF4284A8051004AAEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BF3284A8051004AAEF6 /* AppDelegate.swift */; };
+		D50A2BF7284A8075004AAEF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BF6284A8075004AAEF6 /* SceneDelegate.swift */; };
+		D50A2BFB284A8964004AAEF6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A2BFA284A8964004AAEF6 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D50A2BD4284A57A0004AAEF6 /* SliderAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D50A2BD7284A57A0004AAEF6 /* SliderAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		D50A2BD9284A57A0004AAEF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D50A2BDB284A57A2004AAEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50A2BDE284A57A2004AAEF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D50A2BE0284A57A2004AAEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50A2BE9284A78A1004AAEF6 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		D50A2BEC284A7AC9004AAEF6 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		D50A2BF3284A8051004AAEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50A2BF6284A8075004AAEF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D50A2BFA284A8964004AAEF6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 		D50A2BD6284A57A0004AAEF6 /* SliderAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				D50A2BD7284A57A0004AAEF6 /* SliderAppSwiftUIApp.swift */,
 				D50A2BD9284A57A0004AAEF6 /* ContentView.swift */,
+				D50A2BFA284A8964004AAEF6 /* ButtonView.swift */,
+				D50A2BEC284A7AC9004AAEF6 /* SliderView.swift */,
+				D50A2BE9284A78A1004AAEF6 /* CustomSlider.swift */,
+				D50A2BF3284A8051004AAEF6 /* AppDelegate.swift */,
+				D50A2BF6284A8075004AAEF6 /* SceneDelegate.swift */,
 				D50A2BDB284A57A2004AAEF6 /* Assets.xcassets */,
 				D50A2BE0284A57A2004AAEF6 /* Info.plist */,
 				D50A2BDD284A57A2004AAEF6 /* Preview Content */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50A2BDA284A57A0004AAEF6 /* ContentView.swift in Sources */,
-				D50A2BD8284A57A0004AAEF6 /* SliderAppSwiftUIApp.swift in Sources */,
+				D50A2BED284A7AC9004AAEF6 /* SliderView.swift in Sources */,
+				D50A2BFB284A8964004AAEF6 /* ButtonView.swift in Sources */,
+				D50A2BEA284A78A1004AAEF6 /* CustomSlider.swift in Sources */,
+				D50A2BF4284A8051004AAEF6 /* AppDelegate.swift in Sources */,
+				D50A2BF7284A8075004AAEF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
